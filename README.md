@@ -25,7 +25,7 @@ http://forum.xda-developers.com/showthread.php?t=1738748
 -Shows virtual navigation (some users reported) <br>
 
 ##Requirements :##
-rooted Motorola Defy with ICS <br>
+-Rooted Motorola Defy with ICS <br>
 
 ##License :##
 <small>Copyright © 2012 Akash Devaraju akashdevaraju@gmail.com <br>
