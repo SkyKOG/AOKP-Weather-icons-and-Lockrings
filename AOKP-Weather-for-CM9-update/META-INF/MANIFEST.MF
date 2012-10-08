@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: Y3AivTesH/nbq77GtUYl5Q1Ccj8=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: zAl901G3GgsFtoDBRtLY3jEg8j8=
+
+Name: system/framework/framework-res.apk
+SHA1-Digest: IEOyScbuF8sgcuSZrIMuoA02oA8=
+

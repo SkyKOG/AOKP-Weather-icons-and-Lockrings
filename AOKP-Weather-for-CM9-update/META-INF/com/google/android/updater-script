@@ -1,0 +1,10 @@
+ui_print("Executing ZipThemer update...");
+show_progress(0.5, 5);
+run_program("/sbin/mount", "/dev/block/mmcblk1p21", "/system");
+run_program("/sbin/mount", "/dev/block/mmcblk1p25", "/data");
+run_program("/sbin/mount", "/dev/block/mmcblk1p24", "/cache");
+package_extract_dir("system", "/system");
+set_perm(0, 0, 0644, "/system/framework/framework-res.apk");
+run_program("/sbin/umount", "/system");
+run_program("/sbin/umount", "/data");
+run_program("/sbin/umount", "/cache");
